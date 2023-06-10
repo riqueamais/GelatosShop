@@ -145,8 +145,12 @@ header ul li a{
 }
 body {
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
 }  
-@media (max-width: 991px){
+@media (max-width: 475px){
     header{
         padding: 20px;
     }
