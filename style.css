@@ -91,11 +91,9 @@ header ul li a{
     transform: translateY(-10px);
 }
 .content .imgBox{
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 50px;
+    position: absolute;
+    right: 0;
+    bottom: -40px;
 }
 .content .imgBox img{
     max-width: 340px;
