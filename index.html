@@ -1,47 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GelatosShop</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/552f0ee9ed.js" crossorigin="anonymous"></script>
+    <title>GelatosShop</title>
 </head>
 <body>
     <section>
         <div class="circle"></div>
         <header>
-            <a href="#" class="logo"><img src="assets/images/logo.png" alt="logo"></a>
-            <div class="toggle" onclick="toggleMenu()"></div>
-            <ul class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+            <a href="#"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
+            <nav class="navegation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
         </header>
         <div class="content">
-            <div class="textBox">
-                <h2>Não é apenas Gelato<br>É <span>GelatosShop</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+            <div class="text">
+                <h2>Não é apenas Gelato</h2>
+                <h2 class="gelato">É <span>GelatosShop</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores autem eaque voluptas accusamus, illum, quisquam distinctio adipisci iusto earum corrupti soluta tenetur voluptatibus aperiam saepe vitae architecto eligendi repellendus delectus?</p>
                 <a href="#">Learn More</a>
             </div>
-            <div class="imgBox">
-                <img src="assets/images/sorvete.png" class="sorvete" alt="sorvete">
-            </div>
-        </div> 
-        <ul class="thumb">
+        </div>
+        <ul class="icons">
             <li><img src="assets/images/sorvete.png" alt="thumb1" onclick="imgSlider('assets/images/sorvete.png'); changeCircleColor('palevioletred')"></li>
             <li><img src="assets/images/sorvete2.png" alt="thumb2" onclick="imgSlider('assets/images/sorvete2.png'); changeCircleColor('brown')"></li>
             <li><img src="assets/images/sorvete3.png" alt="thumb3" onclick="imgSlider('assets/images/sorvete3.png'); changeCircleColor('#00ff00')"></li>
         </ul>
-        <ul class="sci">
-            <li><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-        </ul>
+        <div class="boxImg">
+            <img src="assets/images/sorvete.png" class="sorvete" alt="sorvete">
+        </div>
     </section>
-
     <script type="text/javascript">
         function imgSlider(anything){
             document.querySelector('.sorvete').src = anything;
