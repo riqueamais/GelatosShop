@@ -69,7 +69,7 @@ header .navegation li a{
     position: relative;
     max-width: 600px;
     margin-right: 20px;
-    margin-top: -5rem;
+    margin-top: -10rem;
 }
 .content .text h2{
     color: #222;
@@ -135,7 +135,7 @@ header .navegation li a{
     margin-right: 15rem;
 }
 .boxImg img{
-    width: 350px;
+    width: 500px;
 }
 .gelato{
     margin-top: -65px;
