@@ -1,3 +1,3 @@
 # GelatosShop
 
-https://gelatosshop.vercel.app
+https://gelatos-shop.vercel.app
